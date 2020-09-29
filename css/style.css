@@ -73,28 +73,38 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 @font-face {
-  font-family: "Gilroy-Medium";
-  src: url("../fonts/Gilroy-Medium.eot");
-  src: local("☺"), url("fonts/Gilroy-Medium.woff") format("woff"), url("fonts/Gilroy-Medium.ttf") format("truetype"), url("fonts/Gilroy-Medium.svg") format("svg");
+  font-family: "Gilroy-Bold";
+  src: url("../../fonts/Gilroy-Bold.eot");
+  src: local("☺"), url("../../fonts/Gilroy-Bold.woff") format("woff"), url("../../fonts/Gilroy-Bold.ttf") format("truetype"), url("../../fonts/Gilroy-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("../../fonts/Gilroy-Regular.eot");
+  src: local("☺"), url("../../fonts/Gilroy-Regular.woff") format("woff"), url("../../fonts/Gilroy-Regular.ttf") format("truetype"), url("../../fonts/Gilroy-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Gilroy-Bold";
-  src: url("../fonts/Gilroy-Bold.eot");
-  src: local("☺"), url("fonts/Gilroy-Bold.woff") format("woff"), url("fonts/Gilroy-Bold.ttf") format("truetype"), url("fonts/Gilroy-Bold.svg") format("svg");
-  font-weight: 700;
+  font-family: "Gilroy-Medium";
+  src: url("../../fonts/Gilroy-Medium.eot");
+  src: local("☺"), url("../../fonts/Gilroy-Medium.woff") format("woff"), url("../../fonts/Gilroy-Medium.ttf") format("truetype"), url("../../fonts/Gilroy-Medium.svg") format("svg");
+  font-weight: normal;
   font-style: normal;
 }
 body {
-  font-family: Gilroy-Bold;
+  font-family: "Gilroy-Medium";
   font-size: 18px;
   line-height: 22px;
 }
 
 .main-div {
-  max-width: 940px;
-  margin: 0 auto;
+  max-width: 70vw;
+  margin: 0px auto;
+}
+.main-div .vector {
+  width: 100%;
 }
 
 .nav__menu {
@@ -117,17 +127,54 @@ body {
 }
 .second__header .logo {
   font-size: 47.3392px;
+  font-family: "Gilroy-Bold";
   line-height: 59px;
   color: #070707;
 }
 .second__header p {
-  font-family: "Gilroy-Medium";
+  font-family: "Gilroy-Regular";
 }
 
 .header__img {
   margin-bottom: 100px;
+  width: 100%;
 }
 
-.about-me {
+#about-me {
+  padding-top: 120px;
   background-color: #F6F6F6;
+}
+
+.central-heading {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+
+.central-text {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  width: 485.34px;
+  margin: 0 auto;
+  padding-top: 16px;
+  padding-bottom: 107px;
+}
+
+#third-section h1 {
+  margin-top: 90px;
+  margin-bottom: 70px;
+}
+#third-section p {
+  text-align: center;
+  margin-bottom: 83px;
+}
+#third-section .skill__img {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 110px;
 }
