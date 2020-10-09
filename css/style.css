@@ -175,6 +175,13 @@ body {
 }
 #third-section .skill__img {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 110px;
+}
+
+@media (max-width: 400px) {
+  #third-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
