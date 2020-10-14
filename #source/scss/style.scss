@@ -19,7 +19,7 @@ body {
 	}
 }
 
-.nav__menu {
+#nav__menu {
 	padding: 30px 0;
 	display: flex;
 	justify-content: space-between;
@@ -28,6 +28,12 @@ body {
 	}
 	a {
 		color: #828282;
+	}
+	a:active {
+		color: $c
+	}
+	a:hover {
+		color: $c;
 	}
 }
 
@@ -86,9 +92,10 @@ body {
 		text-align: center;
 		margin-bottom: 83px;
 	}
-	.skill__img {
-		display: flex;
-		justify-content: space-around;
-		margin-bottom: 110px;
-	}
 }
+
+.flex {
+	display: flex;
+	justify-content: space-around;
+}
+

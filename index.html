@@ -4,13 +4,14 @@
 		<title>Portfolio</title>
 		<link rel="stylesheet" href="css/style.css" />
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		
 	</head>
 	<body>
 		<div class="main-div">
-			<nav class="nav__menu">
-				<a href="#" class="active">Home</a>
-				<a href="#">About me</a>
-				<a href="#">Skills</a>
+			<nav id="nav__menu">
+				<a href="" class="active">Home</a>
+				<a href="#about-me">About me</a>
+				<a href="#skills-move">Skills</a>
 				<a href="#">Portfolio</a>
 				<a href="#">Contacts</a>
 			</nav>
@@ -24,7 +25,7 @@
 			<img src="img/header.svg" alt="" class="header__img">
 		</div>
 		<main>
-			<section id="about-me">
+			<section name="about-me" id="about-me">
 				<div class="main-div">
 					<h1 class="central-heading">About-me</h1>
 					<p class="central-text">Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it. <br><br>I'm studying at courses "Web and mobile design interfaces" in IT-Academy. <br><br> Ready to implement excellent projects with wonderful people.</p>
@@ -32,16 +33,17 @@
 			</section>
 			<section id="third-section">
 				<div class="main-div">
-					<h1 class="central-heading">Skills</h1>
+					<h1 class="central-heading" id="skills-move">Skills</h1>
 					<p>I work in such programs as</p>
-					<div class="skill__img">
-						<img src="img/photoshop.svg" alt="">
-						<img src="img/ilustrator.svg" alt="">
-						<img src="img/after-effects.svg" alt="">
-						<img src="img/figma.svg" alt="">
+					<div class="flex">
+						<div><img src="img/photoshop.svg" alt=""></div>
+						<div><img src="img/ilustrator.svg" alt=""></div>
+						<div><img src="img/after-effects.svg" alt=""></div>
+						<div><img src="img/figma.svg" alt=""></div>
 					</div>
 				</div>
 			</section>
 		</main>
+		<script src="#source/js/script.js"></script>
 	</body>
 </html>
