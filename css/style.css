@@ -171,6 +171,9 @@ body {
   padding-bottom: 107px;
 }
 
+#third-section {
+  margin-bottom: 110px;
+}
 #third-section h1 {
   margin-top: 90px;
   margin-bottom: 70px;
@@ -183,4 +186,28 @@ body {
 .flex {
   display: flex;
   justify-content: space-around;
+}
+
+#Portfolio {
+  background: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#Portfolio h1 {
+  padding-top: 112px;
+  padding-bottom: 40px;
+}
+#Portfolio img {
+  margin-bottom: 44px;
+}
+#Portfolio p {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #070707;
+  margin-bottom: 99px;
 }
